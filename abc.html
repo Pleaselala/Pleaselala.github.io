@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>회원가입</title>
+        <link href="https://fonts.googleapis.com/css?family=Hi+Melody&amp;subset=korean" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gaegu&amp;subset=korean" rel="stylesheet">
+        <style>
+            body {
+                background-image:url('back.png');
+                background-size: 100% 100%;
+            }
+            .c {
+                background-color : gray;
+                border : 1px solid black;
+                width : 500px;
+                height : 600px;
+                padding : 20px;
+                margin : 0px;
+            }
+            .w {
+                width : 50px;
+            }
+            .ft {
+               
+                font-size : 100px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="First-1.html" target="_self">
+                    <h1><font class="ft" face="Hi Melody" style="color:black">자취방 구하자!</font></h1>
+            </a>
+            <h1>
+                    <a href="choice.html" target="_self">
+                        <font face="Hi Melody" style="color:black">지역 선택</font>
+                    </a> 
+                    <a href="information.html" target="_self">
+                        <font face="Hi Melody" style="color:black">|정보</font>
+                    </a> 
+                    <a href="epilogue.html" target="_self">
+                        <font face="Hi Melody" style="color:black">|후기</font>
+                    </a> 
+                    <a href="ad.html" target="_self">
+                        <font face="Hi Melody" style="color:black">|홍보</font>
+                    </a>
+                </h1>
+            <hr/>
+        </header>
+            <div style="height : 30px"></div>
+            <center>
+                <fieldset class="c">
+                    <h1><font size="15" face="Gaegu" style="color : black">회 원 가 입</font></h1>
+                    <b>이 름</b> : <input type="text" name="name"><p></p>
+                    <b>닉 네 임</b> : <input type="text" name="nickname"><p></p>
+                    <b>비밀번호</b> : <input type="password" name="psw" required><p></p>
+                    <b>비밀번호 확인</b> : <input type="password" name="psw_check" required><p></p>
+                    <b>주 소</b> : <input type="text" name="address"><p></p>
+                    <b>상세주소</b> : <input type="text" name="address_check"><p></p>
+                    <b>전화번호</b> : <input type="text" name="phone_number1" class="w"> -
+                                    <input type="text" name="phone_number2" class="w"> - 
+                                    <input type="text" name="phone_number3" class="w">
+                                    <input type="submit" name="certification" value="인 증"><p></p>
+                    <b>등 급</b> : <input type="radio" name="type" value="1" checked>거주 희망자
+                                   <input type="radio" name="type" value="2">건물주
+                    <hr/>
+                    <b><건물주일시></b>
+                    <b>지 역</b> : <input type="text" name="area"><p></p>
+                    <b>재 산</b> : <input type="radio" name="money" value="1">2.5억~5억
+                                   <input type="radio" name="money" value="2">5억~10억
+                                   <input type="radio" name="money" value="3">10억~25억<p></p>
+                                   <input type="radio" name="money" value="4">25억~50억
+                                   <input type="radio" name="money" value="5">50억 이상<p></p>
+                    <form action="First-1.html" method="get">
+                        <input type="submit" name="clear" value="가입하기">
+                    </form>
+                </fieldset>
+            </center>
+            <div style="height : 30px"></div>
+            <hr/>                                             
+        <footer>
+            <small>
+                <center>
+                    회사소개| 이용약관 | 고객센터 | 문의 | 광고문의<br/>
+                    웹 프로그래밍 B877037 최재혁 세종특별자치시 전화 : 1588-1234 팩스:1234-123-1234<br/>
+                    E-mail : choosenome@naver.com 사업자등록번호 : 123-12-12345호
+                </center>
+            </small>
+        </footer>
+    </body>
+</html>
